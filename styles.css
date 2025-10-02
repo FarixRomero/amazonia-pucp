@@ -142,6 +142,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .container {
+        background-image: none;
+        background-color: #22865E;
+    }
+
     .header {
         padding-left: 20px;
         height: 80px;
@@ -164,3 +169,4 @@ body {
         font-size: 24px;
     }
 }
+.contact-button { background-color: #FFD700; color: #1a1a1a; text-decoration: none; padding: 12px 30px; font-size: 18px; font-weight: 600; border-radius: 8px; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); position: absolute; right: 50px; } .contact-button:hover { background-color: #FFC700; transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); }
