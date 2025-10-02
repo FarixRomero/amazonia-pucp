@@ -87,6 +87,7 @@ body {
 .features {
     margin: 40px 0;
     text-align: left;
+    padding-left: 20px;
 }
 
 .feature-item {
@@ -110,6 +111,9 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .cta-button:hover {
@@ -140,10 +144,15 @@ body {
 @media (max-width: 768px) {
     .header {
         padding-left: 20px;
+        height: 80px;
     }
 
     .logo {
-        height: 60px;
+        height: 50px;
+    }
+
+    .left-section {
+        margin-top: 20px;
     }
 
     .title,
